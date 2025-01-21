@@ -1,0 +1,13 @@
+/*
+    Theme Name: Divi Child
+    Theme URI: https://example.com
+    Description: A child theme for the Divi theme
+    Author: Your Name
+    Author URI: https://yourwebsite.com
+    Template: Divi
+    Version: 1.0.0
+*/
+
+#main-content {
+    padding-top: 20px;
+}

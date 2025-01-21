@@ -1,0 +1,130 @@
+	/* 
+		Σ : 7,1,2019
+	*/
+
+	/*
+		import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"); 
+	*/
+
+	/* SETTINGS & DOCUMENTATION */
+	#customer_care_documentation {
+		width: 50%;
+		padding-top: 10px;
+	}
+
+	#customer_care_documentation h3 {
+		font-size: 1.2rem;
+		color: #333;
+	}
+
+	#customer_care_documentation p,
+	#customer_care_documentation ol {
+		font-size: 0.9rem;
+	}
+
+	#customer_care_documentation ul {
+		padding-left: 18px;
+		font-size: 0.9rem;
+		list-style: circle;
+	}
+
+	#logo_care {
+		display: inline-block;
+		width: 100%;
+		padding: 0 50px;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	#logo_care img {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		float: left;
+	}
+
+	#logo_text {
+		margin: 30px auto;
+		text-align:center;
+	}
+	
+	#logo_text h2 {
+		margin: 0 auto;
+		text-align:center;
+		font-size: 1.5rem;
+	}
+	
+	/* ******************** */ 
+
+
+	/* PLUGIN & FRONTEND & DOCUMENTATION */
+	.user-rich-editing-wrap,
+	.user-admin-color-wrap,
+	.user-comment-shortcuts-wrap,
+	.user-language-wrap,
+	.user-admin-bar-front-wrap,
+	.user-profile-picture {
+		display: none;
+	}
+
+	.user-nickname-wrap {
+		pointer-events: none;
+		display: none;
+	}
+
+	.input
+	{
+		max-width:100%;
+	}
+	
+	#customer_care_maintenance_caption {
+		max-width: 520px;
+	}
+	
+	#customer_care_maintenance_caption th {
+		padding: 0;
+		max-width: 520px;
+	}
+	
+	#customer_care_maintenance_caption h3 {		
+		margin: 1px auto;
+		text-align: center;
+		color: Orange;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	#customer_care_maintenance_rowset {
+		display: table-row-group;
+		border: 1px dashed #ffb900;
+	}
+
+	#customer_care_maintenance_rowset th {
+		padding-left: 5px;
+	}
+	
+	#customer_care_maintenance_rowset td {
+		margin: 1px 50px;
+	}
+
+	#customer_care_ndt_1,
+	#customer_care_ndt_2 {
+		color:#46b450;
+		z-index: 0;
+	}
+	
+	#customer_care_maintenance_date,
+	#customer_care_payment_date {
+		z-index: 20;
+		pointer-events: all;
+		width: 120px;
+		color: Orange;
+	}
+
+	#customer_care_maintenance_date::before,
+	#customer_care_payment_date::before {
+		font-size: 1.5em;
+		width: 100%!important;
+		color: Black;
+		content: '📆';
+	}
